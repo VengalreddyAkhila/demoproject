@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
       const width = window.innerWidth;
       const height = window.innerHeight;
 
-       let url = "https://bitbucket.org/bippinc/bippv2/src/dev/doc/UsingGoModules.md"
+       let url = "https://demo-bipp.herokuapp.com/"
       let config = { id : 'container', width: "100%", height: height, style: 'border:none;' }
       
       let bipp = new Bipp();
