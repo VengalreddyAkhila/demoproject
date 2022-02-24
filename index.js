@@ -33,6 +33,8 @@ app.get("/", (req, res) => {
       <script src="https://unpkg.com/bipp"></script>
   
   <div class="main">
+  <h1>Bipp Platform</h1>
+  <h2>Dashboard</h2>
 
     <div class="dashboard">
         <div id='container'></div>
