@@ -35,6 +35,7 @@ app.get("/", (req, res) => {
   <div class="main">
     <h2>Company Website</h2>
     <h2>Retail Sales Dashboard</h2>
+    <h>Bipp</h>
     <div class="dashboard">
         <div id='container'></div>
     </div>
