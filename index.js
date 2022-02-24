@@ -94,45 +94,6 @@ app.get("/dev/exp", (req, res) => {
   });
   
 
-app.get("/dev/newj", (req, res) => {
-
-  res.send(`<!DOCTYPE html>
-  <html>
-      <head>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <style>
-            .main {
-                margin: 30px;
-            }
-    
-        </style>
-      </head>
-  <body>
-      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-      <script src="https://unpkg.com/bipp-dev@1.0.6/bipp.js"></script>
-  
-  <div class="main">
-    <h2>Bipp dashboard</h2>
-    <div class="dashboard">
-        <div id='container'></div>
-    </div>
-  </div>
-  <script>
-
-  const width = window.innerWidth;
-  const height = window.innerHeight;
-
-      let url = "https://rbpdpj.app.bippanalytics.com/embed/ca0d6b46-0e20-4964-b235-e2ef21793467?id=8d1a8115-3e5c-44f6-a04a-c7e48dc1c013&cid=0741388954f4417fb893ee3050b33240.rbpdpj.app.bippanalytics.com&secret=eHet0Z9XJqooWwpE93TXpapCM3YCpnUrkqKmgwFkHA5wZqrm";
-      let config = { id : 'container', width: "100%", height: height, style: 'border:none;' }
-      
-      let bipp = new Bipp({debug: 1});
-      bipp.load(url, config);
-  </script>
-  
-  </body>
-  </html>`)
- 
-});
 
 
 
